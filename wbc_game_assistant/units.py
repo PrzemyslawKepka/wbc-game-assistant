@@ -7,7 +7,7 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 
-import mappings
+from wbc_game_assistant import mappings
 
 
 def get_unit_image(

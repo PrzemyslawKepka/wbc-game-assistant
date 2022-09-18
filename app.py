@@ -2,7 +2,8 @@ import streamlit as st
 
 from wbc_game_assistant import load_data, mappings, units
 
-st.set_page_config(layout="wide", page_icon="⚒️", initial_sidebar_state="collapsed")
+st.set_page_config(layout="wide", page_icon="⚒️", page_title= 'WBC Game Assistant',
+                    initial_sidebar_state="collapsed")
 
 st.title("WBC game assistant")
 

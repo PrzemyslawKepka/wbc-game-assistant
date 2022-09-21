@@ -3,7 +3,7 @@ import requests
 import streamlit as st
 
 
-# @st.cache(allow_output_mutation=True)
+@st.cache(allow_output_mutation=True)
 def get_unit_data() -> pd.DataFrame:
     """
     Load source data containing data on all units.

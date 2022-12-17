@@ -14,4 +14,4 @@ Usage itself is pretty straightforward, using select boxes we choose player race
 Additionally, there also advanced options available like choosing what types of units shall be displayed, or there is a button allowing quick swap of the selected races.
 Source data used in the app comes directly from the game, and also partially from external [Fandom site](https://etheria.fandom.com/wiki/Warlords_Battlecry_Wiki). Beside graphical way, data can be also browsed in tabular format under additional expander form.
 
-<img src="https://github.com/PrzemyslawKepka/wbc_game_assistant/blob/main/app_image/wbc_game_assistant.jpg" />
+<img src="https://github.com/PrzemyslawKepka/wbc_game_assistant/blob/master/app_image/wbc_game_assistant.jpg" />

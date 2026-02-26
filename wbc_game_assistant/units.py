@@ -281,7 +281,7 @@ def get_weak_against(player_unit: pd.Series, enemy_df: pd.DataFrame) -> str:
     return "".join(list(dict.fromkeys(html_images)))
 
 
-def create_unit_description(unit_row: pd.Series) -> st._DeltaGenerator:
+def create_unit_description(unit_row: pd.Series) -> None:
     """
     Create an HTML table containing unit description.
 
@@ -366,7 +366,7 @@ def create_unit_description(unit_row: pd.Series) -> st._DeltaGenerator:
 
 def create_unit_traits(
     unit_row: pd.Series, enemy_df: pd.DataFrame
-) -> st._DeltaGenerator:
+) -> None:
     """
     Create an HTML table containing unit traits (ability description,
         as well as good and bad match-ups).

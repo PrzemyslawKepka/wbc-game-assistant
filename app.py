@@ -41,21 +41,21 @@ with st.expander("Advanced options:"):
     p1, p2, p3, p4, e1, e2, e3, e4 = st.columns(8)
 
     with p1:
-        p_builders = st.checkbox("Builders", value=True, key="player")
+        p_builders = st.checkbox("Builders", value=True, key="p_builders")
     with p2:
-        p_t1_fliers = st.checkbox("T1 fliers", value=True, key="player")
+        p_t1_fliers = st.checkbox("T1 fliers", value=True, key="p_t1_fliers")
     with p3:
-        p_dragons = st.checkbox("Dragons", value=True, key="player")
+        p_dragons = st.checkbox("Dragons", value=True, key="p_dragons")
     with p4:
-        p_titans = st.checkbox("Titans", value=True, key="player")
+        p_titans = st.checkbox("Titans", value=True, key="p_titans")
     with e1:
-        e_builders = st.checkbox("Builders", value=True, key="enemy")
+        e_builders = st.checkbox("Builders", value=True, key="e_builders")
     with e2:
-        e_t1_fliers = st.checkbox("T1 fliers", value=True, key="enemy")
+        e_t1_fliers = st.checkbox("T1 fliers", value=True, key="e_t1_fliers")
     with e3:
-        e_dragons = st.checkbox("Dragons", value=True, key="enemy")
+        e_dragons = st.checkbox("Dragons", value=True, key="e_dragons")
     with e4:
-        e_titans = st.checkbox("Titans", value=True, key="enemy")
+        e_titans = st.checkbox("Titans", value=True, key="e_titans")
 
     st.markdown('<hr style="margin: 5px" />', unsafe_allow_html=True)
 

@@ -43,7 +43,7 @@ def get_unit_data() -> pd.DataFrame:
     return df_units
 
 
-@st.cache_data
+@st.cache_data(hash_funcs={pd.DataFrame: id})
 def get_races(source_df: pd.DataFrame) -> list:
     """
     Get all races listfrom previously read sourca data.

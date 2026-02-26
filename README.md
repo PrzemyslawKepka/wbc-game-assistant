@@ -3,10 +3,10 @@ Warlords Battlecry III is a Real-Time-Strategy (RTS) computer game, where it's p
 
 ### Usage
 The application is already hosted online and can be used effectively from any device. It's available under the link:
-[https://wbc-game-assistant.onrender.com/](https://wbc-game-assistant.onrender.com/)
+[https://wbc-game-assistant.streamlit.app](https://wbc-game-assistant.streamlit.app)
 
-Alternative hosting is also provided (without customized domain name):
-[https://przemyslawkepka-wbc-game-assistant-app-ha7qyu.streamlit.app/](https://przemyslawkepka-wbc-game-assistant-app-ha7qyu.streamlit.app/)
+Alternative hosting is also provided:
+[https://wbc-game-assistant.onrender.com](https://wbc-game-assistant.onrender.com)
 
 To run the app locally, the repository has to be cloned, and when all the dependencies from `requirements.txt` all installed, then it is launched by the command `streamlit run app.py` from the terminal.
 
